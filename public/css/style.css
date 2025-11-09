@@ -1,0 +1,187 @@
+.background {
+    background: linear-gradient(to right, black, dimgrey, grey);
+    min-height: 100%;
+}
+
+/* Login Form Styles */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Custom button style that we'll match in the header */
+.custom-btn {
+    background: linear-gradient(to right, black, dimgrey, grey) !important;
+    border: none;
+    color: white !important;
+    transition: all 0.3s ease;
+}
+
+.form-control {
+    border: 1px solid #ddd;
+    padding: 0.75rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #333;
+    box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.15);
+}
+
+.custom-btn {
+    background: linear-gradient(to right, black, dimgrey, grey);
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-btn:hover {
+    background: linear-gradient(to left, black, dimgrey, grey);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.custom-btn:active {
+    transform: translateY(0);
+}
+
+.form-check-input:checked {
+    background-color: #333;
+    border-color: #333;
+}
+
+.text-decoration-none {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.text-decoration-none:hover {
+    color: #000;
+}
+
+/* Custom form floating labels */
+.form-floating label {
+    color: #666;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    color: #333;
+    opacity: 0.8;
+}
+
+/* Alert customization */
+.alert-danger {
+    background-color: #fff1f0;
+    border-color: #ffccc7;
+    color: #cf1322;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    color: #151618;
+    opacity: 1;
+}
+
+.form-control:focus {
+    border-color: #232324;
+    box-shadow: 0 0 0 0.25rem rgba(14, 14, 14, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #0f1010, #141415);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0c0c0c, #0e0e0e);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(10, 10, 11, 0.3);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #0d6efd, #0a58ca) !important;
+}
+
+.form-check-input:checked {
+    background-color: #121213;
+    border-color: #1f1f20;
+}
+.card-title{
+    font-size : 1rem;
+    height : 140px;
+    border-bottom: 5px solid lightgrey;
+}
+
+.source-date{
+    display: flex;
+    justify-content: space-between;
+}
+.source-date p{
+    font-size : 0.8rem;
+}
+.card-text{
+    font-size : 0.9rem;
+    height : 240px;
+}
+
+@media only screen and (min-width:0) and (max-width:576px){
+    .card-title{
+       
+        height : 70px;
+    }
+    .card-text{
+        height : 100px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    .card-title{
+       
+        height : 90px;
+    }
+    .card-text{
+        height : 140px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+    .card-title{
+       
+        height : 110px;
+    }
+    .card-text{
+        height : 170px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .card-title{
+       
+        height : 110px;
+    }
+    .card-text{
+        height : 200px;
+    }
+}
